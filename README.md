@@ -16,7 +16,7 @@ git commit
 git remote add <remote-name> <repo-address>
 
 # Clone a repo into local machine
-git clone origin <repo-address> <optional: folder-name-if-needed>
+git clone <remote-name> <repo-address> <optional: folder-name-if-needed>
 
 # Stage changes
 git add <.-if-add-all-changes>
@@ -29,6 +29,12 @@ git fetch <optional: remote-name> <optional: branch-name>
 
 # Get new changes
 git pull <optional: remote-name> <optional: branch-name>
+```
+
+## Reset remote
+
+```
+git remote set-url <remote-name> <new-repo-address>
 ```
 
 ## Config SSH key for multiple accounts (can only be saved in user default directory, i.e. User/\<user-name\>)
