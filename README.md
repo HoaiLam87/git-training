@@ -1,6 +1,6 @@
 # Demo Project README
 
-## Config SSH key for multiple accounts (can only be saved in user default directory, i.e. User/<user-name>)
+## Config SSH key for multiple accounts (can only be saved in user default directory, i.e. User/\<user-name\>)
 
 ```
 # Beware of the indentation
